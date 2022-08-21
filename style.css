@@ -50,6 +50,45 @@ section {
   padding-block: 10rem;
 }
 
+
+/* === NAVEGATION ============================== */
+
+nav {
+  display: flex;
+  height: var(--nav-height);
+
+  position: fixed;
+  top: 0;
+  width: 100vw;
+
+  z-index: 100;
+}
+nav .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav.scroll {
+  background-color: var(--primary-color);
+  
+}
+
+nav.scroll .logo path {
+  fill: #fff;
+}
+
+nav.scroll button path {
+  stroke: #fff;
+}
+
+nav button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
 /* === HOME ============================== */
 
 #home {
@@ -134,45 +173,7 @@ section {
   color: var(--primary-color);
 }
 
-/* === NAVEGATION ============================== */
 
-nav {
-  display: flex;
-  height: var(--nav-height);
-
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-
-  z-index: 100;
-}
-nav .wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-nav.scroll {
-  background-color: var(--primary-color);
-  width: 100vw;
-  position: fixed;
-  top: 0;
-}
-
-nav.scroll svg:nth-child(1) path {
-  fill: #fff;
-}
-
-nav.scroll button path {
-  stroke: #fff;
-}
-
-nav button {
-  background: none;
-  border: none;
-  cursor: pointer;
-}
 
 /* === MENU-EXPANDED ============================== */
 
@@ -181,7 +182,7 @@ body.menu-expanded {
 }
 
 body.menu-expanded > :not(nav) {
-  display: none;
+  visibility: hidden;
 }
 
 .menu,
@@ -213,10 +214,6 @@ body.menu-expanded .menu {
 
   transition: transform 300ms;
   transform: translateY(0);
-}
-
-body.menu-expanded nav {
-  position: relative;
 }
 
 .menu ul:nth-child(1) {
@@ -270,6 +267,7 @@ body.menu-expanded .logo path {
 body.menu-expanded button path {
   stroke: #fff;
 }
+
 
 /* === SERVICES ============================== */
 
