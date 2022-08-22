@@ -9,18 +9,17 @@
   --primary-color: hsl(170, 100%, 26%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
-  
+
   --brand-beige: hsl(39, 100%, 97%);
   --brand-light: hsl(152, 23%, 89%);
   --brand-dark: hsl(170, 100%, 14%);
-  
+
   --bg-light: hsl(180, 14%, 97%);
-  
+
   font-size: 62.5%; /* 1rem = 10px */
-  
+
   --nav-height: 7.2rem;
 }
-
 
 html,
 body {
@@ -69,7 +68,7 @@ section header h4 {
   margin-bottom: 1.6rem;
 }
 
-section header h2{
+section header h2 {
   font-size: 3rem;
   line-height: 3.9rem;
   color: var(--headline);
@@ -82,7 +81,7 @@ section header h1 {
   margin-bottom: 2.4rem;
 }
 
-section .content p{
+section .content p {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 150%;
@@ -113,6 +112,13 @@ section .content p{
   transition: 200ms;
 }
 
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
 /* === NAVEGATION ============================== */
 
 nav {
@@ -134,7 +140,6 @@ nav .wrapper {
 
 nav.scroll {
   background-color: var(--primary-color);
-  
 }
 
 nav.scroll .logo path {
@@ -150,7 +155,6 @@ nav button {
   border: none;
   cursor: pointer;
 }
-
 
 /* === MENU-EXPANDED ============================== */
 
@@ -202,13 +206,13 @@ body.menu-expanded .menu {
   line-height: 3.1rem;
 }
 
-.menu ul li a{
+.menu ul li a {
   color: var(--brand-beige);
   text-decoration: none;
 }
 
-.menu .button{
-  background: #FFF;
+.menu .button {
+  background: #fff;
   border-radius: 4rem;
   font-weight: 700;
   font-size: 1.8rem;
@@ -223,12 +227,6 @@ body.menu-expanded .menu {
   margin-bottom: 8rem;
 }
 
-.social-links {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3.2rem;
-}
 
 body.menu-expanded .logo,
 body.menu-expanded button {
@@ -243,7 +241,6 @@ body.menu-expanded .logo path {
 body.menu-expanded button path {
   stroke: #fff;
 }
-
 
 /* === HOME ============================== */
 
@@ -274,7 +271,6 @@ body.menu-expanded button path {
   color: var(--paragraph);
   margin-bottom: 3.2rem;
 }
-
 
 #home img {
   width: 26.4rem;
@@ -310,7 +306,6 @@ body.menu-expanded button path {
   color: var(--primary-color);
 }
 
-
 /* === SERVICES ============================== */
 
 #services header h2 {
@@ -321,12 +316,12 @@ body.menu-expanded button path {
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
-} 
+}
 
 #services .card {
   padding: 2.4rem;
   text-align: left;
-  background: #FFF;
+  background: #fff;
   border: 1px solid var(--brand-light);
   border-radius: 0.6rem;
 }
@@ -335,10 +330,9 @@ body.menu-expanded button path {
   margin-block: 1.6rem;
 }
 
-
 /* === ABOUT ============================== */
 
-#about{
+#about {
   text-align: left;
   background-color: var(--brand-beige);
 }
@@ -378,3 +372,38 @@ body.menu-expanded button path {
   align-items: center;
   gap: 0.8rem;
 }
+
+/* === FOOTER ============================== */
+
+footer {
+  background-color: var(--primary-color);
+  padding-block: 6rem;
+  text-align: left;
+  color: #fff;
+}
+
+footer .logo {
+  display: inline-block;
+  margin-bottom: 2.4rem;
+}
+
+footer .logo svg {
+  width: 23.6rem;
+  height: 3.1rem;
+}
+
+footer .logo path {
+  fill: #fff;
+}
+
+footer p {
+  color: var(--brand-beige);
+  line-height: 2;
+  margin-bottom: 3.2rem;
+}
+
+footer .social-links {
+  justify-content: flex-start;
+}
+
+/*    BACK TO TOP   */
