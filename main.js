@@ -1,11 +1,28 @@
-function onScroll() {
+window.addEventListener('scroll', onScroll)
 
+onScroll()
+function onScroll() {
+  showNavOnScroll()
+  showBackToTopButtonOnScroll()
+}
+
+function showNavOnScroll() {
   const scrollNavigation = document.querySelector('#navigation');
 
   if (scrollY > 0) {
     scrollNavigation.classList.add('scroll');
   } else {
     scrollNavigation.classList.remove('scroll');
+  }
+}
+
+function showBackToTopButtonOnScroll() {
+  const backToTopButton = document.querySelector('#backToTopButton');
+
+  if (scrollY > 550) {
+    backToTopButton.classList.add('show');
+  } else {
+    backToTopButton.classList.remove('show');
   }
 }
 
