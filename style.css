@@ -102,15 +102,14 @@ section .content p {
   text-transform: uppercase;
   border: none;
   border-radius: 4rem;
-  color: #fff;
+  color: white;
   background-color: var(--primary-color);
   text-decoration: none;
+  transition: 200ms;
 }
 
 .button:hover {
   background-color: var(--brand-dark);
-
-  transition: 200ms;
 }
 
 .social-links {
@@ -138,11 +137,11 @@ button.open-menu path[stroke*='#00856F'],
 
 body.menu-expanded #navigation .logo path,
 #navigation.scroll .logo path {
-  fill: #fff;
+  fill: white;
 }
 
 #navigation.scroll button.open-menu path[stroke*='#00856F'] {
-  stroke: #fff;
+  stroke: white;
 }
 
 /* === NAVEGATION ============================== */
@@ -229,12 +228,12 @@ body.menu-expanded .menu {
 }
 
 .menu ul li a {
-  color: #fff;
+  color: white;
   text-decoration: none;
 }
 
 .menu .button {
-  background: #fff;
+  background: white;
   border-radius: 4rem;
   font-weight: 700;
   font-size: 1.8rem;
@@ -262,11 +261,11 @@ body.menu-expanded button {
 }
 
 body.menu-expanded .logo path {
-  fill: #fff;
+  fill: white;
 }
 
 body.menu-expanded button path {
-  stroke: #fff;
+  stroke: white;
 }
 
 /* === HOME ============================== */
@@ -309,6 +308,7 @@ body.menu-expanded button path {
 #home .stats {
   width: 100%;
   margin-inline: auto;
+  padding-block: 4rem;
   background-color: var(--brand-beige);
   border: 1px solid var(--brand-light);
   border-radius: 0.6rem;
@@ -316,7 +316,6 @@ body.menu-expanded button path {
   flex-direction: column;
   justify-content: center;
   gap: 6rem;
-  padding-block: 4rem;
 }
 
 #home .stat h3 {
@@ -348,7 +347,7 @@ body.menu-expanded button path {
 #services .card {
   padding: 2.4rem;
   text-align: left;
-  background: #fff;
+  background: white;
   border: 1px solid var(--brand-light);
   border-radius: 0.6rem;
 }
@@ -388,10 +387,10 @@ body.menu-expanded button path {
   flex-direction: column;
   gap: 1.6rem;
   margin-bottom: 3.2rem;
-  font-size: 1.6rem;
+  /* font-size: 1.6rem;
   font-weight: 400;
   line-height: 150%;
-  color: var(--paragraph);
+  color: var(--paragraph); */
 }
 
 #contact ul li {
@@ -420,7 +419,7 @@ footer .logo svg {
 }
 
 footer .logo path {
-  fill: #fff;
+  fill: white;
 }
 
 footer p {
@@ -473,10 +472,12 @@ footer .social-links {
     flex-direction: initial;
     position: initial;
     font-size: initial;
+    font-weight: initial;
     transform: initial;
     color: initial;
     background-color: initial;
     color: initial;
+    filter: initial;
   }
 
   nav#navigation .close-menu,
@@ -523,8 +524,8 @@ footer .social-links {
   }
 
   nav#navigation.scroll .menu a.button {
-    border-color: #fff;
-    color: #fff;
+    border-color: white;
+    color: white;
   }
 
   nav#navigation .menu li a:hover {
