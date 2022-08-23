@@ -477,7 +477,6 @@ footer .social-links {
     transform: initial;
     color: initial;
     background-color: initial;
-    color: initial;
     filter: initial;
   }
 
@@ -517,6 +516,12 @@ footer .social-links {
     font-size: 1.4rem;
     line-height: 1.8rem;
     text-transform: uppercase;
+  }
+
+  nav#navigation .menu a.button:hover {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
   }
 
   nav#navigation.scroll .menu ul li a {
