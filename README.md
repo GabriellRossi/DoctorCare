@@ -14,11 +14,7 @@
 </p>
 
 <p align="center">
- <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=5822b4&labelColor=991eeb" alt="License">
-  
-  <img src="https://img.shields.io/github/forks/GabriellRossi/DOCTORCARE-NLW?label=forks&message=MIT&color=5822b8&labelColor=991eec" alt="Forks">
-
-  <img src="https://img.shields.io/github/stars/GabriellRossi/DOCTORCARE-NLW?label=stars&message=MIT&color=5822b1&labelColor=991eea " alt="Stars">
+ 
 </p>
 
 <br>
