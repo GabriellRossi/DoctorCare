@@ -6,11 +6,6 @@
   <img alt="" src=".github/preview-desktop.jpg" width="100%">
 </p>
 
-<br>
-
-<p align="center">
-  <img alt="" src=".github/preview-mobile.svg" width="100%">
-</p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -26,6 +21,15 @@
   <img src="https://img.shields.io/github/stars/GabriellRossi/DOCTORCARE-NLW?label=stars&message=MIT&color=5822b4&labelColor=991eeb " alt="Stars">
 </p>
 
+<p align="center">
+  <img alt="" src=".github/logo-plane.svg" width="10%">
+</p>
+
+<br>
+
+<p align="center">
+  <img alt="" src=".github/preview-desktop.png" width="100%">
+</p>
 
 
 ## 🚀 Tecnologias
