@@ -64,7 +64,7 @@ section header h4 {
   font-size: 1.4rem;
   font-weight: 700;
   line-height: 150%;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.08rem;
   color: var(--primary-color);
   text-transform: uppercase;
   margin-bottom: 1.6rem;
@@ -389,10 +389,6 @@ body.menu-expanded button path {
   flex-direction: column;
   gap: 1.6rem;
   margin-bottom: 3.2rem;
-  /* font-size: 1.6rem;
-  font-weight: 400;
-  line-height: 150%;
-  color: var(--paragraph); */
 }
 
 #contact ul li {
@@ -407,7 +403,7 @@ footer {
   background-color: var(--primary-color);
   padding-block: 6rem;
   text-align: left;
-  color: #fff;
+  color: white;
 }
 
 footer .logo {
@@ -604,7 +600,7 @@ footer .social-links {
   /* === HOME ============================== */
 
   #home::before {
-    height: calc(96% + var(--nav-height));
+    height: calc(96% - var(--nav-height));
   }
 
   #home {
@@ -658,7 +654,7 @@ footer .social-links {
   /* === SERVICES ============================== */
 
   #services h2 {
-    width: 42rem;
+    width: 47rem;
     margin-inline: auto;
   }
 
@@ -684,6 +680,7 @@ footer .social-links {
   #about .col-a {
     align-self: center;
   }
+
   #about .content p {
     margin-bottom: 0;
   }
