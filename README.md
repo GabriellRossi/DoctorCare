@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img alt="" src=".github/preview-mobile.jpg" width="50%">
+  <img alt="" src=".github/preview-mobile.jpg" width="40%">
 </p>
 
 <p align="center">
@@ -24,10 +24,6 @@
   <img src="https://img.shields.io/github/stars/GabriellRossi/DOCTORCARE-NLW?label=stars&message=MIT&color=5822b4&labelColor=991eeb " alt="Stars">
 </p>
 
-<p align="center">
-  <img alt="" src=".github/logo-plane.svg" width="10%">
-</p>
-
 <br>
 
 <p align="center">
@@ -37,7 +33,7 @@
 <br>
 
 <p align="center">
-  <img alt="" src=".github/preview-mobile.png" width="50%">
+  <img alt="" src=".github/preview-mobile.png" width="40%">
 </p>
 
 ## 🚀 Tecnologias
