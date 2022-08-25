@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img alt="" src=".github/preview-mobile.jpg" width="100%">
+  <img alt="" src=".github/preview-mobile.jpg" width="50%">
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@
 <br>
 
 <p align="center">
-  <img alt="" src=".github/preview-mobile.png" width="100%">
+  <img alt="" src=".github/preview-mobile.png" width="50%">
 </p>
 
 ## 🚀 Tecnologias
