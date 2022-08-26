@@ -106,7 +106,7 @@ section .content p {
   color: white;
   background-color: var(--primary-color);
   text-decoration: none;
-  transition: 200ms;
+  transition: background 200ms;
 }
 
 .button:hover {
