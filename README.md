@@ -23,19 +23,6 @@
 
 <br>
 
-<!-- <p align="center">
-  <img alt="" src=".github/preview-desktop.png" width="100%">
-</p>
-
-<br>
-
-<p align="center">
-  <img alt="" src=".github/preview-mobile.png" width="100%">
-</p> -->
-
-<br>
-
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
