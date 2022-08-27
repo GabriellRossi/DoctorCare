@@ -9,13 +9,6 @@
 <br>
 
 <p align="center">
-  <img alt="" src=".github/preview-mobile.jpg" width="40%">
-</p>
-
-<br>
-
-
-<p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
@@ -26,13 +19,6 @@
 
 <p align="center">
   <img alt="" src=".github/preview-desktop.png" width="100%">
-</p>
-
-<br>
-
-
-<p align="center">
-  <img alt="" src=".github/preview-mobile.png" width="40%">
 </p>
 
 <br>
