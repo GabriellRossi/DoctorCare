@@ -3,13 +3,13 @@
 </h1>
 
 <p align="center">
-  <img alt="" src=".github/preview-desktop.jpg" width="100%">
+  <img alt="" src=".github/preview-desktop.png" width="100%">
 </p>
 
 <br>
 
 <p align="center">
-  <img alt="" src=".github/preview-mobile.png" width="40%">
+  <img alt="" src=".github/preview-mobile.png" width="100%">
 </p>
 
 <br>
@@ -30,7 +30,7 @@
 <br>
 
 <p align="center">
-  <img alt="" src=".github/preview-mobile.png" width="40%">
+  <img alt="" src=".github/preview-mobile.png" width="100%">
 </p>
 
 <br>
