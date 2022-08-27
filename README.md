@@ -9,7 +9,7 @@
 <br>
 
 <p align="center">
-  <img alt="" src=".github/preview-mobile.png" width="100%">
+  <img alt="" src=".github/preview-mobile.png" width="40%">
 </p>
 
 <br>
@@ -23,7 +23,7 @@
 
 <br>
 
-<p align="center">
+<!-- <p align="center">
   <img alt="" src=".github/preview-desktop.png" width="100%">
 </p>
 
@@ -31,7 +31,7 @@
 
 <p align="center">
   <img alt="" src=".github/preview-mobile.png" width="100%">
-</p>
+</p> -->
 
 <br>
 
