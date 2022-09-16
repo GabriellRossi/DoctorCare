@@ -32,11 +32,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🚧 Projeto:
 
-https://doctorcare-nlw.vercel.app/
+[🔗 Clique aqui para acessar](https://doctorcare-nlw.vercel.app/)
 
 ## 🎨 Inspiração:
 
-https://www.figma.com/file/HbqWIHlx60n5HB6fql1L0W/DoctorCare-(Community)
+[🔗 FIGMA](<https://www.figma.com/file/HbqWIHlx60n5HB6fql1L0W/DoctorCare-(Community)>)
 
 ## :memo: Licença
 
